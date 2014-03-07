@@ -1,0 +1,24 @@
+{
+	"name" : "bread/calendar",
+	"description" : "Bread CalDAV library",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Alex Tomasello",
+			"email" : "alex.tomasello@saiv.it"
+		}
+	],
+	"keywords" : [
+		"bread calendar caldav ews"
+	],
+	"homepage" : "https://github.com/breadphp/calendar",
+	"license" : "CC-BY-3.0",
+	"require" : {
+		"php" : ">=5.5",
+		"bread/rest" : "~0.6"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Bread\\Calendar" : "src"
+		}
+	}
+}
