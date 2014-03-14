@@ -59,9 +59,6 @@ class EWS implements Driver
         }
         //TODO attachments
         $response = $this->ews->CreateItem($request);
-        $fp = fopen('/tmp/response.txt', 'w');
-        fwrite($fp,var_export($response,true));
-        fclose($fp);
         /**
          * @see http://msdn.microsoft.com/en-US/library/aa564690(v=exchg.140).aspx
          */
