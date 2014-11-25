@@ -17,8 +17,8 @@
 		"bread/rest" : "~0.6"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"Bread\\Calendar" : "src"
+		"psr-4" : {
+			"Bread\\Calendar\\" : "src"
 		}
 	}
 }
