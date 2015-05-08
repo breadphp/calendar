@@ -33,6 +33,8 @@ class EWS implements Driver
 
         $request->Items->CalendarItem->Location = $model->location;
 
+
+        $request->Items->CalendarItem->IsResponseRequested = false;
         $request->Items->CalendarItem->ItemClass = new Type\ItemClass();
         $request->Items->CalendarItem->ItemClass->_ = Type\ItemClass::APPOINTMENT;
         $request->Items->CalendarItem->Importance = new Type\ImportanceChoices();
